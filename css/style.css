@@ -1,0 +1,91 @@
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+}
+
+
+
+.first-title{
+    font-size: 20px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:   rgb(230, 91, 91);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-described{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+}
+.container {
+
+  
+    width: 1158px;
+    margin: 0 auto;
+
+}
+.second-ttile{
+        font-size: 20px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: rgb(230, 91, 91);
+        margin-bottom: 20px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.second-described{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    
+}
+table.table-bordered{
+    border: 0,5px soild #444;
+    overflow: hidden;
+}
+
+    .table-bordered {
+            border: 1px solid #ddd;
+        }
+table{
+    border: 2px solid;
+}
+.table-td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
